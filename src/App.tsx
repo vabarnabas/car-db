@@ -3,9 +3,9 @@ import Navbar from "./Components/Layout/Navbar"
 import Table from "./Components/Table/Table"
 import Form from './Components/Form/Form'
 
-document.title = 'CarDB'
-
 const App = () => {
+    document.title = 'CarDB'
+
     const [carList, setCarList] = useState<string[][]>([]);
     const [showForm, setShowForm] = useState<boolean>(false);
     const [renderCount, setRenderCount] = useState<number>(0)
